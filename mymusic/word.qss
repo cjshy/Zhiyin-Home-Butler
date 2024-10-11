@@ -1,0 +1,19 @@
+QPushButton {
+    border: none;
+    background-color: white; /* 设置按钮的默认背景颜色为白色 */
+    border-radius: 10px; /* 修改圆角大小，提高圆角效果 */
+    padding: 10px 15px; /* 增加按钮的内边距，使按钮更显气派 */
+    font-size: 16px; /* 设置字体大小 */
+    font-family: 'Arial', sans-serif; /* 设置字体 */
+    color: rgb(50, 50, 50); /* 设置字体颜色 */
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时的背景颜色 */
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2); /* 按压时的背景颜色 */
+    border: 1px solid rgba(0, 0, 0, 0.3); /* 按压时的边框 */
+    padding: 9px 14px; /* 调整按压时的内边距，使按钮看起来被按下 */
+}

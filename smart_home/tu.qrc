@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tu/一居室平面图.jpeg</file>
+        <file>tu/关闭.png</file>
+        <file>tu/最小化.png</file>
+        <file>tu/风扇.png</file>
+        <file>tu/kt.gif</file>
+        <file>tu/kt.jfif</file>
+        <file>tu/电灯.png</file>
+        <file>tu/电灯泡.png</file>
+        <file>tu/空调.png</file>
+        <file>tu/fs2.gif</file>
+    </qresource>
+</RCC>

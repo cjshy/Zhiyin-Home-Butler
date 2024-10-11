@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>440</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#widget{
+border-image: url(:/chat_lib/bg.jpg);
+ border-radius: 20px; /* 设置边框的圆角弧度，这里的20px可以根据需要调整 */
+    border-style: solid;  /* 需要设置边框样式 */
+    border-width: 5px;    /* 设置边框宽度 */
+    border-color: transparent; /* 边框颜色可以设置为透明，以突出边框图像 */
+}
+
+</string>
+     </property>
+     <widget class="QWidget" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>451</width>
+        <height>52</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>57</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>4</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_min">
+           <property name="minimumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QPushButton {
+border: none;
+	border-image: url(:/chat_lib/zuixiaohua.png);
+background-color: transparent; /* 设置按钮的默认背景透明 */
+border-radius: 5px; /* 设置按钮的圆角 */
+padding: 5px 10px; /* 设置按钮的内边距 */
+}
+
+QPushButton:hover {
+background-color: rgba(0, 0, 0, 0.1); /* 设置鼠标悬停时的背景颜色，使用半透明效果 */
+}
+
+QPushButton:pressed {
+background-color: rgba(0, 0, 0, 0.2); /* 设置按钮按压时的背景颜色，使用半透明效果 */
+border: 1px solid rgba(0, 0, 0, 0.3); /* 设置按钮按压时的边框，使用半透明效果 */
+padding: 4px 9px; /* 调整按压时的内边距，模拟按压效果 */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_close">
+           <property name="minimumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QPushButton {
+border: none;
+	border-image: url(:/chat_lib/guanbi.png);
+background-color: transparent; /* 设置按钮的默认背景透明 */
+border-radius: 5px; /* 设置按钮的圆角 */
+padding: 5px 10px; /* 设置按钮的内边距 */
+}
+
+QPushButton:hover {
+background-color: rgba(0, 0, 0, 0.1); /* 设置鼠标悬停时的背景颜色，使用半透明效果 */
+}
+
+QPushButton:pressed {
+background-color: rgba(0, 0, 0, 0.2); /* 设置按钮按压时的背景颜色，使用半透明效果 */
+border: 1px solid rgba(0, 0, 0, 0.3); /* 设置按钮按压时的边框，使用半透明效果 */
+padding: 4px 9px; /* 调整按压时的内边距，模拟按压效果 */
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>92</width>
+        <height>113</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton {
+border: none;
+	border-image: url(:/chat_lib/家居.png);
+background-color: transparent; /* 设置按钮的默认背景透明 */
+border-radius: 5px; /* 设置按钮的圆角 */
+padding: 5px 10px; /* 设置按钮的内边距 */
+}
+
+QPushButton:hover {
+background-color: rgba(0, 0, 0, 0.1); /* 设置鼠标悬停时的背景颜色，使用半透明效果 */
+}
+
+QPushButton:pressed {
+background-color: rgba(0, 0, 0, 0.2); /* 设置按钮按压时的背景颜色，使用半透明效果 */
+border: 1px solid rgba(0, 0, 0, 0.3); /* 设置按钮按压时的边框，使用半透明效果 */
+padding: 4px 9px; /* 调整按压时的内边距，模拟按压效果 */
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-weight: bold;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>咕咕家居</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>70</y>
+        <width>95</width>
+        <height>113</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>90</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton {
+border: none;
+	border-image: url(:/tu/audio.png);
+background-color: transparent; /* 设置按钮的默认背景透明 */
+border-radius: 5px; /* 设置按钮的圆角 */
+padding: 5px 10px; /* 设置按钮的内边距 */
+}
+
+QPushButton:hover {
+background-color: rgba(0, 0, 0, 0.1); /* 设置鼠标悬停时的背景颜色，使用半透明效果 */
+}
+
+QPushButton:pressed {
+background-color: rgba(0, 0, 0, 0.2); /* 设置按钮按压时的背景颜色，使用半透明效果 */
+border: 1px solid rgba(0, 0, 0, 0.3); /* 设置按钮按压时的边框，使用半透明效果 */
+padding: 4px 9px; /* 调整按压时的内边距，模拟按压效果 */
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-weight: bold;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>咕咕音乐</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
